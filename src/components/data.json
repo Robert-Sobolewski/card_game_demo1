@@ -1,0 +1,255 @@
+[
+    {
+        "id":0,
+        "name": "Bulbasaur",
+        "pictures":["https://img.pokemondb.net/artwork/bulbasaur.jpg"],
+        "hit": 49
+    },
+    {
+        "id":1,
+        "name": "Charmander",
+        "pictures":["https://img.pokemondb.net/artwork/charmander.jpg"],
+        "hit": 52
+    },
+    {
+        "id":2,
+        "name": "Squirtle",
+        "pictures":["https://img.pokemondb.net/artwork/squirtle.jpg"],
+        "hit": 48
+    },
+    {
+        "id":3,
+        "name": "Caterpie",
+        "pictures":["https://img.pokemondb.net/artwork/caterpie.jpg"],
+        "hit": 30
+    },
+    {
+        "id":4,
+        "name": "Weedle",
+        "pictures":["https://img.pokemondb.net/artwork/weedle.jpg"],
+        "hit": 35
+    },
+    {
+        "id":5,
+        "name": "Pidgey",
+        "pictures":["https://img.pokemondb.net/artwork/pidgey.jpg"],
+        "hit": 45
+    },
+    {
+        "id":6,
+        "name": "Rattata",
+        "pictures":["https://img.pokemondb.net/artwork/rattata.jpg"],
+        "hit": 56
+    },
+    {
+        "id":7,
+        "name": "Spearow",
+        "pictures":["https://img.pokemondb.net/artwork/spearow.jpg"],
+        "hit": 60
+    },
+    {
+        "id":8,
+        "name": "Ekans",
+        "pictures":["https://img.pokemondb.net/artwork/ekans.jpg"],
+        "hit": 60
+    },
+    {
+        "id":9,
+        "name": "Pikachu",
+        "pictures":["https://img.pokemondb.net/artwork/pikachu.jpg"],
+        "hit": 55
+    },
+    {
+        "id":10,
+        "name": "Sandshrew",
+        "pictures":["https://img.pokemondb.net/artwork/sandshrew.jpg"],
+        "hit": 75
+    },
+    {
+        "id":11,
+        "name": "Nidoran",
+        "pictures":["https://img.pokemondb.net/artwork/nidoran.jpg"],
+        "hit": 47
+    },
+    {
+        "id":12,
+        "name": "Clefairy",
+        "pictures":["https://img.pokemondb.net/artwork/clefairy.jpg"],
+        "hit": 45
+    },
+    {
+        "id":13,
+        "name": "Vulpix",
+        "pictures":["https://img.pokemondb.net/artwork/vulpix.jpg"],
+        "hit": 41
+    },
+    {
+        "id":14,
+        "name": "Jigglypuff",
+        "pictures":["https://img.pokemondb.net/artwork/jigglypuff.jpg"],
+        "hit": 45
+    },
+    {
+        "id":15,
+        "name": "Zubat",
+        "pictures":["https://img.pokemondb.net/artwork/zubat.jpg"],
+        "hit": 45
+    },
+    {
+        "id":16,
+        "name": "Oddish",
+        "pictures":["https://img.pokemondb.net/artwork/oddish.jpg"],
+        "hit": 50
+    },
+    {
+        "id":17,
+        "name": "Paras",
+        "pictures":["https://img.pokemondb.net/artwork/paras.jpg"],
+        "hit": 70
+    },
+    {
+        "id":18,
+        "name": "Venonat",
+        "pictures":["https://img.pokemondb.net/artwork/venonat.jpg"],
+        "hit": 55
+    },
+    {
+        "id":19,
+        "name": "Diglett",
+        "pictures":["https://img.pokemondb.net/artwork/diglett.jpg"],
+        "hit": 55
+    },
+    {
+        "id":20,
+        "name": "Meowth",
+        "pictures":["https://img.pokemondb.net/artwork/meowth.jpg"],
+        "hit": 45
+    },
+    {
+        "id":21,
+        "name": "Psyduck",
+        "pictures":["https://img.pokemondb.net/artwork/psyduck.jpg"],
+        "hit": 52
+    },
+    {
+        "id":22,
+        "name": "Mankey",
+        "pictures":["https://img.pokemondb.net/artwork/mankey.jpg"],
+        "hit": 80
+    },
+    {
+        "id":23,
+        "name": "Growlithe",
+        "pictures":["https://img.pokemondb.net/artwork/growlithe.jpg"],
+        "hit": 70
+    },
+    {
+        "id":24,
+        "name": "Poliwag",
+        "pictures":["https://img.pokemondb.net/artwork/poliwag.jpg"],
+        "hit": 50
+    },
+    {
+        "id":25,
+        "name": "Abra",
+        "pictures":["https://img.pokemondb.net/artwork/abra.jpg"],
+        "hit": 20
+    },
+    {
+        "id":26,
+        "name": "Machop",
+        "pictures":["https://img.pokemondb.net/artwork/machop.jpg"],
+        "hit": 80
+    },
+    {
+        "id":27,
+        "name": "Bellsprout",
+        "pictures":["https://img.pokemondb.net/artwork/bellsprout.jpg"],
+        "hit": 75
+    },
+    {
+        "id":28,
+        "name": "Tentacool",
+        "pictures":["https://img.pokemondb.net/artwork/tentacool.jpg"],
+        "hit": 40
+    },
+    {
+        "id":29,
+        "name": "Geodude",
+        "pictures":["https://img.pokemondb.net/artwork/geodude.jpg"],
+        "hit": 80
+    },
+    {
+        "id":30,
+        "name": "Ponyta",
+        "pictures":["https://img.pokemondb.net/artwork/ponyta.jpg"],
+        "hit": 85
+    },
+    {
+        "id":31,
+        "name": "Slowpoke",
+        "pictures":["https://img.pokemondb.net/artwork/slowpoke.jpg"],
+        "hit": 65
+    },
+    {
+        "id":32,
+        "name": "Magnemite",
+        "pictures":["https://img.pokemondb.net/artwork/magnemite.jpg"],
+        "hit": 35
+    },
+    {
+        "id":33,
+        "name": "Farfetchd",
+        "pictures":["https://img.pokemondb.net/artwork/farfetchd.jpg"],
+        "hit": 92
+    },
+    {
+        "id":34,
+        "name": "Seel",
+        "pictures":["https://img.pokemondb.net/artwork/seel.jpg"],
+        "hit": 45
+    },
+    {
+        "id":35,
+        "name": "Grimer",
+        "pictures":["https://img.pokemondb.net/artwork/grimer.jpg"],
+        "hit": 80
+    },
+    {
+        "id":36,
+        "name": "Haunter",
+        "pictures":["https://img.pokemondb.net/artwork/haunter.jpg"],
+        "hit": 50
+    },
+    {
+        "id":37,
+        "name": "Onix",
+        "pictures":["https://img.pokemondb.net/artwork/onix.jpg"],
+        "hit": 45
+    },
+    {
+        "id":38,
+        "name": "Koffing",
+        "pictures":["https://img.pokemondb.net/artwork/koffing.jpg"],
+        "hit": 65
+    },
+    {
+        "id":39,
+        "name": "Rhyhorn",
+        "pictures":["https://img.pokemondb.net/artwork/rhyhorn.jpg"],
+        "hit": 85
+    },
+    {
+        "id":40,
+        "name": "Tangela",
+        "pictures":["https://img.pokemondb.net/artwork/tangela.jpg"],
+        "hit": 55
+    },
+    {
+        "id":41,
+        "name": "Horsea",
+        "pictures":["https://img.pokemondb.net/artwork/horsea.jpg"],
+        "hit": 40
+    }
+    
+    ]
