@@ -4,6 +4,11 @@ import './App.scss'
 import Game, { IGame } from './components/Game'
 import { ICard } from './components/Game';
 import Card from "./components/card/Card";
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
+import SelectTeam from "./pages/SelectTeam";
+import { Container } from "react-bootstrap";
 
 function App() {
   const [game, setGame] = useState<IGame| null>(null)
@@ -16,7 +21,14 @@ function App() {
   },[])
   return (
     <div className="App">
-      <h1>game</h1>
+      <Container>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="*" element={<NotFound />} />
+          <Route path="/selectTeam" element={<SelectTeam />} />
+        </Routes>
+      </Container>
+      {/* <h1>game</h1>
       <ul className="blue">
         {game?.blue.map((i: ICard) => (
           <li key={i.id}>
@@ -31,7 +43,7 @@ function App() {
           </li>
         ))}
       </ul>
-      <Card figure={game!.red[0]} />
+      <Card figure={game!.red[0]} /> */}
     </div>
   );
 }
