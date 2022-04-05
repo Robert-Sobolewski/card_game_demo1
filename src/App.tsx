@@ -6,19 +6,22 @@ import { ICard } from './components/Game';
 import Card from "./components/card/Card";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
+import GamePage from "./pages/GamePage";
 import NotFound from "./pages/NotFound";
 import SelectTeam from "./pages/SelectTeam";
 import { Container } from "react-bootstrap";
+import { useDispatch } from "react-redux";
+import { gameInit } from "./components/redux/gameSlice";
 
 function App() {
-  const [game, setGame] = useState<IGame| null>(null)
-
-  useEffect(() =>{
-    
-    let g = new Game();
-    g.generateDeck();
-    setGame(g)
-  },[])
+  const [game, setGame] = useState<IGame | null>(null);
+  const dispatch = useDispatch();
+  useEffect(() => {
+    // let g = new Game();
+    // g.generateDeck();
+    // setGame(g);
+    dispatch(gameInit());
+  }, []);
   return (
     <div className="App">
       <Container>
@@ -26,6 +29,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="*" element={<NotFound />} />
           <Route path="/selectTeam" element={<SelectTeam />} />
+          <Route path="/game" element={<GamePage />} />
         </Routes>
       </Container>
       {/* <h1>game</h1>

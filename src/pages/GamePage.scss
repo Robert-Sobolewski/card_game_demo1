@@ -1,0 +1,15 @@
+.game-page{
+
+    .table{
+        display:flex;
+        padding: 1em;
+        min-height: 20rem;
+    }
+
+    .blue{
+        border: solid 5px blue;
+    }
+    .red{
+        border: solid 5px red;
+    }
+}

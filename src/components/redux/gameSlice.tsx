@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { ICard } from "../Game";
+import Game, { ICard } from "../Game";
 
 export enum Team {
   RED = 0,
@@ -9,13 +9,15 @@ export enum Team {
 export interface IGameRoot {
   game: IGameReducer;
 }
-interface IGameReducer {
+export interface IGameReducer {
+  game: Game | null;
   score: number;
   team: Team | null;
   cards: ICard[];
   move: null | any;
 }
 const init: IGameReducer = {
+  game: null,
   score: 0,
   team: null,
   cards: [],
@@ -26,12 +28,19 @@ const gameSlice = createSlice({
   name: "game",
   initialState: init,
   reducers: {
+    setGame: (state, action: PayloadAction<Game>) => {
+      state.game = action.payload;
+    },
     selectTeam: (state: IGameReducer, action: PayloadAction<Team>) => {
       state.team = action.payload;
+    },
+    gameInit: (state: IGameReducer) => {
+      state.game = new Game();
+      state.game.generateDeck();
     },
   },
 });
 
 export default gameSlice.reducer;
-export const { selectTeam } = gameSlice.actions;
+export const { selectTeam, gameInit, setGame } = gameSlice.actions;
 export const selectGame = (state: IGameRoot) => state.game;
